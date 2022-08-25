@@ -1,0 +1,20 @@
+server:
+  port: 8948
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-bp1d387t6s1cg96pzmo.mysql.rds.aliyuncs.com:3306/demo?useSSL=false
+    username: root
+    password: Xiaocaozhou2016
+    type: com.alibaba.druid.pool.DruidDataSource
+  redis:
+    host: 106.14.172.38
+    port: 6379
+    password: 603778
+    database: 0
+    jedis:
+      pool:
+        max-active: 8
+        min-idle: 0
+        max-idle: 8
+        max-wait: 100
